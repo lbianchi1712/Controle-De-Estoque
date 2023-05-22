@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(22, 25, 37);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>50</y>
+      <width>700</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(203, 247, 237);</string>
+    </property>
+    <property name="text">
+     <string>  Preencha os campos para cadastrar um novo usuario</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>160</y>
+      <width>500</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(142, 168, 195);
+border-color: rgb(142, 168, 195);
+color: rgb(35, 57, 91);
+border-radius: 10px;
+border-style: outset;
+border-width: 3px;
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>    DIGITE SEU NOME</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>220</y>
+      <width>500</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(142, 168, 195);
+border-color: rgb(142, 168, 195);
+color: rgb(35, 57, 91);
+border-radius: 10px;
+border-style: outset;
+border-width: 3px;
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>    DIGITE O LOGIN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>500</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(142, 168, 195);
+border-color: rgb(142, 168, 195);
+color: rgb(35, 57, 91);
+border-radius: 10px;
+border-style: outset;
+border-width: 3px;
+
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>    DIGITE SUA SENHA</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>340</y>
+      <width>500</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(142, 168, 195);
+border-color: rgb(142, 168, 195);
+color: rgb(35, 57, 91);
+border-radius: 10px;
+border-style: outset;
+border-width: 3px;
+
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>    RETIPA A SENHA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>450</y>
+      <width>220</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>900</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift Condensed</family>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(203, 247, 237);
+border-radius: 10px;
+border-style: outset;
+border-width: 3px;
+background-color: rgb(64, 110, 142);
+border-color: rgb(203, 247, 237);</string>
+    </property>
+    <property name="text">
+     <string>CADASTRAR</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
